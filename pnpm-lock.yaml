@@ -16,6 +16,7 @@ specifiers:
   '@testing-library/user-event': ^14.0.4
   '@types/bcryptjs': ^2.4.2
   '@types/eslint': ^8.4.1
+  '@types/marked': ^4.0.3
   '@types/node': ^17.0.23
   '@types/react': ^17.0.43
   '@types/react-dom': ^17.0.14
@@ -29,6 +30,7 @@ specifiers:
   eslint: ^8.12.0
   eslint-config-prettier: ^8.5.0
   happy-dom: ^2.55.0
+  marked: ^4.0.15
   msw: ^0.39.2
   npm-run-all: ^4.1.5
   postcss: ^8.4.12
@@ -54,6 +56,7 @@ dependencies:
   '@remix-run/serve': 1.4.3_sfoxds7t5ydpegc3knd667wn6m
   '@remix-run/server-runtime': 1.4.3_sfoxds7t5ydpegc3knd667wn6m
   bcryptjs: 2.4.3
+  marked: 4.0.15
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   tiny-invariant: 1.2.0
@@ -69,6 +72,7 @@ devDependencies:
   '@testing-library/user-event': 14.2.0_tlwynutqiyp5mns3woioasuxnq
   '@types/bcryptjs': 2.4.2
   '@types/eslint': 8.4.2
+  '@types/marked': 4.0.3
   '@types/node': 17.0.33
   '@types/react': 17.0.45
   '@types/react-dom': 17.0.17
@@ -1338,6 +1342,10 @@ packages:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
       '@types/node': 17.0.33
+    dev: true
+
+  /@types/marked/4.0.3:
+    resolution: {integrity: sha512-HnMWQkLJEf/PnxZIfbm0yGJRRZYYMhb++O9M36UCTA9z53uPvVoSlAwJr3XOpDEryb7Hwl1qAx/MV6YIW1RXxg==}
     dev: true
 
   /@types/mdast/3.0.10:
@@ -5784,6 +5792,12 @@ packages:
     resolution: {integrity: sha512-WWC0ZuMzCyDHYCasEGs4IPvLyTGftYwh6wIEOULOF0HXcqZlhwRzrK0w2VUlxWA98xnvb/jszw4ZSkJ6ADpM6Q==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /marked/4.0.15:
+    resolution: {integrity: sha512-esX5lPdTfG4p8LDkv+obbRCyOKzB+820ZZyMOXJZygZBHrH9b3xXR64X4kT3sPe9Nx8qQXbmcz6kFSMt4Nfk6Q==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dev: false
 
   /mdast-util-definitions/5.1.0:
     resolution: {integrity: sha512-5hcR7FL2EuZ4q6lLMUK5w4lHT2H3vqL9quPvYZ/Ku5iifrirfMHiGdhxdXMUbUkDmz5I+TYMd7nbaxUhbQkfpQ==}
